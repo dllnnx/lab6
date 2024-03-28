@@ -7,9 +7,8 @@
 name: Lint Code Base
 
 on:
-  pull_request:
-    types:
-      - opened
+  push
+
 jobs:
   run-lint:
     runs-on: ubuntu-latest
